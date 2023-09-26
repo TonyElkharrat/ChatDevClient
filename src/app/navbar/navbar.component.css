@@ -1,0 +1,12 @@
+.logo {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  float: left;
+}
+
+li {
+  list-style: none;
+}

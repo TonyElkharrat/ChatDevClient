@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.login-submessage {
+  font-family: "Roboto-Thin";
+  font-size: 15px;
+  margin-top: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20vh;
+  min-width: 5rem;
+}
+
+.login-button {
+  align-self: auto;
+  background-color: #fff;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  width: 200px;
+  margin: 30px 0px;
+  font-family: "Roboto-Bold";
+  cursor: pointer;
+}
+
+/* Small screens (e.g., smartphones) */
+@media (max-width: 767px) {
+}
+
+/* Medium-sized screens (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Your styles for medium-sized screens */
+}
+
+/* Large screens (e.g., desktops) */
+@media (min-width: 992px) {
+  /* Your styles for large screens */
+}
+
+/* Portrait orientation */
+@media (orientation: portrait) {
+  /* Your styles for portrait orientation */
+}
+
+/* Landscape orientation */
+@media (orientation: landscape) {
+  /* Your styles for landscape orientation */
+}
+
+/* High-DPI screens (e.g., Retina displays) */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /* Your styles for high-DPI screens */
+}
+
+/* Print styles */
+@media print {
+  /* Your styles for printed pages */
+}
+
+/* Screens with a specific aspect ratio (e.g., 16:9) */
+@media (aspect-ratio: 16/9) {
+  /* Your styles for screens with a 16:9 aspect ratio */
+}
+
+/* Devices with hover capability (e.g., desktops) */
+@media (hover: hover) {
+  /* Your styles for devices with hover capability */
+}
+
+/* Specific device width (e.g., iPhone 6/7/8-sized screens) */
+@media (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  /* Your styles for iPhone 6/7/8-sized screens */
+}
